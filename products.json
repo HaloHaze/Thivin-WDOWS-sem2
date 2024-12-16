@@ -1,0 +1,215 @@
+{
+  "products": [
+    {
+      "title": "Aspirin",
+      "category": "Analgesics",
+      "details": "100mg per tab",
+      "price": 5,
+      "img": "Images/Pharmacy/aspirin.webp"
+    },
+    {
+      "title": "Ibuprofen",
+      "category": "Analgesics",
+      "details": "200mg per tab",
+      "price": 6,
+      "img": "Images/Pharmacy/ibuprofen.webp"
+    },
+    {
+      "title": "Paracetamol",
+      "category": "Analgesics",
+      "details": "500mg per tab",
+      "price": 4,
+      "img": "Images/Pharmacy/paracetamol.webp"
+    },
+    {
+      "title": "Codeine",
+      "category": "Analgesics",
+      "details": "30mg per tab",
+      "price": 7,
+      "img": "Images/Pharmacy/codeine.webp"
+    },
+    {
+      "title": "Tramadol",
+      "category": "Analgesics",
+      "details": "50mg per tab",
+      "price": 8,
+      "img": "Images/Pharmacy/tramadol.webp"
+    },
+    {
+      "title": "Naproxen",
+      "category": "Analgesics",
+      "details": "250mg per tab",
+      "price": 9,
+      "img": "Images/Pharmacy/naproxen.webp"
+    },
+    {
+      "title": "Amoxicillin",
+      "category": "Antibiotics",
+      "details": "250mg per capsule",
+      "price": 7,
+      "img": "Images/Pharmacy/amoxicillin.webp"
+    },
+    {
+      "title": "Ciprofloxacin",
+      "category": "Antibiotics",
+      "details": "500mg per tab",
+      "price": 10,
+      "img": "Images/Pharmacy/ciprofloxacin.webp"
+    },
+    {
+      "title": "Doxycycline",
+      "category": "Antibiotics",
+      "details": "100mg per capsule",
+      "price": 6,
+      "img": "Images/Pharmacy/doxycycline.webp"
+    },
+    {
+      "title": "Azithromycin",
+      "category": "Antibiotics",
+      "details": "250mg per tab",
+      "price": 8,
+      "img": "Images/Pharmacy/azithromycin.webp"
+    },
+    {
+      "title": "Metronidazole",
+      "category": "Antibiotics",
+      "details": "400mg per tab",
+      "price": 7,
+      "img": "Images/Pharmacy/metronidazole.webp"
+    },
+    {
+      "title": "Penicillin",
+      "category": "Antibiotics",
+      "details": "500mg per capsule",
+      "price": 5,
+      "img": "Images/Pharmacy/penicillin.webp"
+    },
+    {
+      "title": "Fluoxetine",
+      "category": "Antidepressants",
+      "details": "20mg per capsule",
+      "price": 12,
+      "img": "Images/Pharmacy/fluoxetine.webp"
+    },
+    {
+      "title": "Sertraline",
+      "category": "Antidepressants",
+      "details": "50mg per tab",
+      "price": 15,
+      "img": "Images/Pharmacy/sertraline.webp"
+    },
+    {
+      "title": "Citalopram",
+      "category": "Antidepressants",
+      "details": "20mg per tab",
+      "price": 10,
+      "img": "Images/Pharmacy/citalopram.webp"
+    },
+    {
+      "title": "Escitalopram",
+      "category": "Antidepressants",
+      "details": "10mg per tab",
+      "price": 11,
+      "img": "Images/Pharmacy/escitalopram.webp"
+    },
+    {
+      "title": "Venlafaxine",
+      "category": "Antidepressants",
+      "details": "75mg per tab",
+      "price": 14,
+      "img": "Images/Pharmacy/venlafaxine.webp"
+    },
+    {
+      "title": "Duloxetine",
+      "category": "Antidepressants",
+      "details": "30mg per capsule",
+      "price": 13,
+      "img": "Images/Pharmacy/duloxetine.webp"
+    },
+    {
+      "title": "Loratadine",
+      "category": "Antihistamines",
+      "details": "10mg per tab",
+      "price": 5,
+      "img": "Images/Pharmacy/loratadine.webp"
+    },
+    {
+      "title": "Cetirizine",
+      "category": "Antihistamines",
+      "details": "10mg per tab",
+      "price": 6,
+      "img": "Images/Pharmacy/cetirizine.webp"
+    },
+    {
+      "title": "Diphenhydramine",
+      "category": "Antihistamines",
+      "details": "25mg per tab",
+      "price": 4,
+      "img": "Images/Pharmacy/diphenhydramine.webp"
+    },
+    {
+      "title": "Fexofenadine",
+      "category": "Antihistamines",
+      "details": "120mg per tab",
+      "price": 7,
+      "img": "Images/Pharmacy/fexofenadine.webp"
+    },
+    {
+      "title": "Chlorpheniramine",
+      "category": "Antihistamines",
+      "details": "4mg per tab",
+      "price": 3,
+      "img": "Images/Pharmacy/chlorpheniramine.webp"
+    },
+    {
+      "title": "Levocetirizine",
+      "category": "Antihistamines",
+      "details": "5mg per tab",
+      "price": 6,
+      "img": "Images/Pharmacy/levocetirizine.webp"
+    },
+    {
+      "title": "Losartan",
+      "category": "Antihypertensives",
+      "details": "50mg per tab",
+      "price": 9,
+      "img": "Images/Pharmacy/losartan.webp"
+    },
+    {
+      "title": "Amlodipine",
+      "category": "Antihypertensives",
+      "details": "5mg per tab",
+      "price": 8,
+      "img": "Images/Pharmacy/amlodipine.webp"
+    },
+    {
+      "title": "Metoprolol",
+      "category": "Antihypertensives",
+      "details": "25mg per tab",
+      "price": 10,
+      "img": "Images/Pharmacy/metoprolol.webp"
+    },
+    {
+      "title": "Enalapril",
+      "category": "Antihypertensives",
+      "details": "10mg per tab",
+      "price": 7,
+      "img": "Images/Pharmacy/enalapril.webp"
+    },
+    {
+      "title": "Ramipril",
+      "category": "Antihypertensives",
+      "details": "2.5mg per tab",
+      "price": 6,
+      "img": "Images/Pharmacy/ramipril.webp"
+    },
+    {
+      "title": "Hydrochlorothiazide",
+      "category": "Antihypertensives",
+      "details": "25mg per tab",
+      "price": 5,
+      "img": "Images/Pharmacy/hydrochlorothiazide.webp"
+    }
+    
+  ]
+}

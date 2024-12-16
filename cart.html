@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>cartpage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6176231e60.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/cart.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="Images/favicon_io/site.webmanifest">
+</head>
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><img src="Images/logo.png" alt="Logo"></label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About us</a></li>
+                <li><a href="Doctors.html">Doctors</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Channeling.html">Channeling</a></li>
+                <li><a href="pharmacy.html" class="action">Pharmacy</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="order-details">
+            <h2>Your Order</h2>
+            <table id="order-table">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Order items will be dynamically added here -->
+                </tbody>
+            </table>
+            <p id="grand-total">Grand Total: $0.00</p>
+        </section>
+
+        <section id="user-details">
+            <h2>Enter Your Details</h2>
+            <form id="checkout-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" rows="3" required></textarea>
+
+                <label for="payment">Payment Method:</label>
+                <select id="payment" required>
+                    <option value="">Select Payment Method</option>
+                    <option value="credit">Credit Card</option>
+                    <option value="Cash">Cash</option>
+                </select>
+
+                <button type="button" id="pay-button">Pay</button>
+            </form>
+        </section>
+
+        <!-- Credit Card Form -->
+        <div id="credit-card-form">
+            <h3>Credit Card Details</h3>
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" placeholder="Enter card number" required>
+
+            <label for="card-expiry">Expiry Date (MM/YY):</label>
+            <input type="text" id="card-expiry" placeholder="MM/YY" required>
+
+            <label for="card-cvc">CVC:</label>
+            <input type="text" id="card-cvc" placeholder="CVC" required>
+
+            <button type="button" id="proceed-button">Proceed</button>
+        </div>
+    </main>
+
+    <script src="cart.js"></script>
+
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="Images/logo.png" alt="Logo">
+        </div>
+        <div class="footer-links">
+            <div class="footer-section">
+                <h4 class="f">Contact</h4>
+                <p>0757441915</p>
+                <p>0112585866</p>
+                <p>0112232399</p>
+            </div>
+            <div class="footer-section">
+                <h4 class="f">Address</h4>
+                <p>172/1,</p>
+                <p>Lotus road</p>
+                <p>Colombo</p>
+            </div>
+            <div class="footer-section">
+                <h4 class="f">Email</h4>
+                <p>alliancesri@gmail.com</p>
+            </div>
+        </div>    
+    </div>
+    <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="#"><img src="Images/icons/icons8-facebook-50.png" alt="Facebook"></a>
+            <a href="#"><img src="Images/icons/icons8-messenger-48.png" alt="Messenger"></a>
+            <a href="#"><img src="Images/icons/icons8-instagram-50.png" alt="Instagram"></a>
+        </div>
+    </div>
+
+
+</footer>
+</body>
+</html>

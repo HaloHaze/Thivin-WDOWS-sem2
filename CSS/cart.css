@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f0e0e3f;
+}
+
+
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.748);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+#order-details {
+    margin-bottom: 30px;
+}
+
+#order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#order-table th, #order-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#order-table th {
+    background-color: #333;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#grand-total {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+    color: #171819;
+}
+
+#checkout-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#checkout-form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#checkout-form input, #checkout-form textarea, #checkout-form select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#checkout-form textarea {
+    resize: none;
+}
+
+#pay-button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #140d4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#pay-button:hover {
+    background-color: #45a049;
+}
+
+/* Credit Card Form */
+#credit-card-form {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #9090e4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: none;  /* Initially hidden */
+}
+
+#credit-card-form h3 {
+    color: #0c0c0c;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#credit-card-form label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #0f0e0e;
+}
+
+#credit-card-form input {
+    margin-bottom: 15px;
+}
+
+#credit-card-form input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #201e1e;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#credit-card-form button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #140d4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#credit-card-form button:hover {
+    background-color: #458fa0;
+}
+
+

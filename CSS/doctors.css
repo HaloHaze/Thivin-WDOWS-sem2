@@ -1,0 +1,105 @@
+:root {
+    --text-dark: #fdfcfc;
+    --text-light: #767268;
+    --max-width: 1200px;
+  }
+  /*main body*/
+
+  body{
+    background-image: url(../Images/background/doctors.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .section__container {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem;
+    
+  }
+  
+  .section__header {
+    margin-bottom: 0.5rem;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--text-dark);
+    background: rgb(152, 148, 148);
+  }
+
+  p{
+    font-size: 20px;
+    
+    
+  }
+
+  h3{
+    color: #fdfcfc;
+    font-size: 30px;
+  }
+
+  
+  
+  /* 1 card per row on small screens */
+  .doctors__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 2rem;
+  }
+  
+  .doctors__card {
+    display: grid;
+    grid-template-columns: 150px 1fr; /* Two columns: one for image, one for text */
+    gap: 30px; /* Space between the image and text */
+    align-items: center; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1.5rem;
+    cursor: pointer;
+    background-color: #767268;
+  }
+  
+  .doctors__card__image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .doctors__card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+  }
+  
+  .doctors__card__info h4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+  }
+  
+  .doctors__card__info p {
+    color: var(--text-light);
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .doctors__card__info .description {
+    color: var(--text-dark);
+    font-size: 18px;
+  }
+  
+  /* Media query to adjust layout for larger screens */
+  @media (min-width: 768px) {
+    .doctors__grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per row on medium screens */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .doctors__grid {
+      grid-template-columns: repeat(3, 1fr); /* 3 cards per row on large screens */
+    }
+  }
+  

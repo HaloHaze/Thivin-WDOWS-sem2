@@ -1,0 +1,182 @@
+/*Body*/
+
+body {
+    background-position: center;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    background-image: url(../Images/background/consulting.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    margin-top: -40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Form*/
+.regform {
+    width: 100%;
+    max-width: 800px;
+    background-color: rgb(174, 158, 158);
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+}
+
+main {
+    margin:80px 400px 80px;
+    background-color: rgb(65, 98, 119);
+    width: 100%;
+    max-width: 800px;
+    border-radius: 15px 15px 15px 15px;
+    padding-bottom: 20px;
+    box-shadow:0px 15px 20px rgba(0, 0, 0, 0.46)
+}
+
+form {
+    padding: 20px;
+}
+
+
+.sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    color: white;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.gender {
+    margin-top: 20px;
+}
+
+label {
+    color: white;
+    margin-right: 15px;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px auto;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: darkgray;
+}
+
+
+fieldset {
+    border: 2px solid gray;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+}
+
+
+@media (max-width:760px){
+    body {
+        margin-top: 20px;
+    }
+
+    /* Adjust form and regform for mobile */
+    .regform, main {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+  
+        padding: 10px;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    /* Set fields to fill available width */
+    input[type="text"], input[type="number"] {
+        width: 100%;
+        height: 40px;
+    }
+
+    /* Adjust buttons layout */
+    .buttons {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    input[type="submit"], input[type="reset"] {
+        width: 48%;
+        margin: 0;
+    }
+
+    /* Styling fieldsets for mobile */
+    fieldset {
+        padding: 10px;
+    }
+
+    /* Adjust the title and other headings */
+    h2 {
+        font-size: 16px;
+    }
+
+    /* Responsive Payment Options */
+    .gender {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}   
